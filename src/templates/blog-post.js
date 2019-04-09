@@ -10,7 +10,7 @@ export default function Template({data}) {
     return (
         <div>
             <Layout>
-                <Link to="/">Go back</Link>
+                <Link to="/">Wróć</Link>
                 <hr />
                 <h1>{ post.frontmatter.title }</h1>
                 <h4>Posted by: {post.frontmatter.author} on {post.frontmatter.date}</h4>
